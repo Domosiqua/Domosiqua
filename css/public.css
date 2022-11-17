@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'misans';
+}
+
+@font-face {
+    font-family: 'misans';
+    src: url(../font/MiSans/MiSans-Normal.ttf);
+}
+
+@font-face {
+    font-family: 'misans-bold';
+    src: url(../font/MiSans/MiSans-Bold.ttf);
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(-0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.page {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 44px;
+    background-color: #333333;
+}
+
+.nav a {
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.nav-content {
+    margin: 0 auto;
+    width: 1340px;
+}
+
+.nav-left {
+    width: 100px;
+}
+
+.nav-logo {
+    position: relative;
+}
+
+.nav-logo img {
+    position: absolute;
+    top: 0px;
+    right: -25px;
+    width: 20px;
+    height: 20px;
+    border: rgb(50, 50, 50) 1px solid;
+    border-radius: 10px;
+}
+
+.nav-id {
+    margin-left: 33px;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right a {
+    margin-left: 12px;
+    color: rgb(214, 214, 214);
+}
+
+.footer {
+    height: 44px;
+    margin-top: 273px;
+}
+
+.footer p {
+    line-height: 44px;
+    text-align: center;
+    font-family: 'misans';
+    font-size: 16px;
+    color: #999;
+}
